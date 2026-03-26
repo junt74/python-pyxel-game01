@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 --version)",
+      "Bash(pip3 show:*)",
+      "Bash(pyenv versions:*)",
+      "Read(//usr/local/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(brew list:*)",
+      "Bash(/opt/homebrew/bin/python3.10 --version)",
+      "Bash(/opt/homebrew/bin/python3.10 -m venv .venv)",
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(.venv/bin/pip freeze:*)"
+    ]
+  }
+}
