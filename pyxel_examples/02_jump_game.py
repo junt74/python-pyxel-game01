@@ -10,7 +10,7 @@ import pyxel
 
 class App:
     def __init__(self):
-        pyxel.init(160, 120, title="Pyxel Jump")
+        pyxel.init(160, 120, title="Pyxel Jump", fps=60)
         pyxel.load("assets/jump_game.pyxres")
 
         self.score = 0

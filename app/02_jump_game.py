@@ -1,0 +1,1 @@
+../pyxel_examples/02_jump_game.py
